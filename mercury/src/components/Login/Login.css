@@ -1,0 +1,42 @@
+.login-page{
+    background: url('../../assets/img/bg-loginPage.jpg') 50% 0 no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.login-window{
+    background: #fff;
+    width: 70%;
+    max-width: 100%;
+}
+
+.login-head{
+    background: #0e1a35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.500em 3.750em;
+}
+
+.ac-link{
+    color: #fff;
+    font: 24px 'Roboto-Medium' ,sans-serif;
+}
+
+.login-link{
+    margin-left: 100px;
+}
+
+.welcome-text{
+    text-align: center;
+    font: 3.000em 'Roboto-Light', sans-serif;
+    color: #8492af;
+    margin: 70px 0;
+}
+
+.welcome-text span{
+    color: #5384ff;
+}

@@ -1,0 +1,117 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 105px;
+    padding: 0 45px;
+    border-bottom: 2px solid #d4d9e3;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.left-btn-group{
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .burger-btn{
+    position: relative;
+    width: 26px;
+    height: 20px;
+    background-color: transparent;
+    background: url(../../assets/img/Menu.png) no-repeat;
+    border: none;
+    margin-right: 35px;
+}
+
+.top-nav .burger-btn::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 12px;
+    background: url(../../assets/img/row.png) no-repeat;
+}
+
+
+.top-nav .search-btn{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background: url(../../assets/img/Search.png) no-repeat;
+    border: none;
+}
+
+.right-btn-group{
+    display: flex;
+    align-items: center;
+}
+
+.right-btn-group .add-project{
+    position: relative;
+    padding: 0 50px;
+    height: 50px;
+    background: #5584ff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font: bold 18px 'Roboto', sans-serif;
+    margin-right: 50px;
+}
+
+.right-btn-group .add-project::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../../assets/img/plus.png) no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+
+.bell-icon,
+.mail-icon{
+    font: 28px 'FontAwesome' , sans-serif;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #0e1a35;
+}
+
+.mail-icon{
+    margin-right: 30px;
+}
+
+.bell-icon{
+    margin-right: 40px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user i{
+    font: 24px 'FontAwesome' , sans-serif;
+    margin-left: 10px;
+}
+
+.ava-wrap{
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ava-wrap img{
+    height: 100%;
+    width: 100%;
+}

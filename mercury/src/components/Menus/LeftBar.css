@@ -1,0 +1,33 @@
+.left-bar{
+    width: 20%;
+    background: #0e1a35;
+
+}
+
+.wrap-logo-lbar{
+    padding: 25px 40px;
+    border-bottom: 2px solid #0d172e;
+}
+
+.wrap-logo-lbar .logo-style{
+    height: 53px;
+    overflow: hidden;
+}
+
+.nav-left li{
+    display: flex;
+    padding-left: 40px;
+    border-bottom: 2px solid #0d172e;
+    cursor: pointer;
+}
+
+.nav-left li:hover{
+    background: #122143;
+}
+
+.nav-left li a{
+    color: #fff;
+    text-decoration: none;
+    font: 24px 'Roboto-Medium', sans-serif;
+    line-height: 100px;
+}
